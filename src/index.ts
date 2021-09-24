@@ -1,3 +1,1 @@
-const Greeter = (name: string) => `Hello ${name}`;
-
-export default Greeter;
+export { persistStore, defineState } from './persist';
