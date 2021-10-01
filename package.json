@@ -1,8 +1,8 @@
 {
   "name": "@rhinolabs/redux-persist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sinchronize and persist your Redux state",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "format": "eslint --fix \"src/**/*.ts\"",
@@ -15,18 +15,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RhinoLabs/redux-persist.git"
+    "url": "git+https://github.com/rhinolabs/redux-persist.git"
   },
   "keywords": [
     "redux",
     "persist",
+    "front-end",
     "keep store",
     "persist store",
     "redux persist",
     "redux toolkit"
   ],
   "author": "RhinoLabs",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RhinoLabs/redux-persist/issues"
   },
